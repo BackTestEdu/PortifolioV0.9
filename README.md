@@ -8,11 +8,24 @@ Olá! Sou apaixonado por tecnologia desde jovem e transformei essa paixão em um
 Minha Trajetória
 
 Desde a adolescência, venho explorando diferentes facetas da tecnologia. Minha jornada inclui:
-    **Desenvolvimento Multilíngue:** Dominando linguagens como JavaScript, Java, VB.Net, HTML5 e CSS3, criei projetos que variam de aplicativos interativos a sites envolventes.
-    **Experiência Corporativa:** Trabalhei na ILTDA aos 16 anos, onde aprimorei minhas habilidades com sistemas de gerenciamento de conteúdo, como Joomla e WordPress. Transformei sites "orientados a tabela" comuns naquela epoca em experiências modernas e elegantes.
-    **Resolução de Desafios Técnicos:** Desde subir servidores até configurar firewalls, enfrentei desafios técnicos de diversas naturezas. Aprendi que a resolução de problemas é uma habilidade essencial.
-    **Análise de Dados Eficiente:** Combinei minhas habilidades técnicas com a análise de dados para otimizar operações de estoque e produtos, até mesmo encontrar possiveis tendencias de mercado.
-Missão
+
+**Desenvolvimento Multilíngue:**
+
+   Dominando linguagens como JavaScript, Java, VB.Net, HTML5 e CSS3, criei projetos que variam de aplicativos interativos a sites envolventes.
+   
+**Experiência Corporativa:**
+
+   Trabalhei na ILTDA aos 16 anos, onde aprimorei minhas habilidades com sistemas de gerenciamento de conteúdo, como Joomla e WordPress. Transformei sites "orientados a tabela" comuns naquela epoca em    '       experiências modernas e elegantes.
+   
+**Resolução de Desafios Técnicos:**
+
+   Desde subir servidores até configurar firewalls, enfrentei desafios técnicos de diversas naturezas. Aprendi que a resolução de problemas é uma habilidade essencial.
+   
+**Análise de Dados Eficiente:**
+
+   Combinei minhas habilidades técnicas com a análise de dados para otimizar operações de estoque e produtos, até mesmo encontrar possiveis tendencias de mercado.
+
+## Missão
 
 Minha missão é continuar crescendo como profissional de TI, sempre disposto a aprender, adaptar-me e enfrentar novos desafios. Acredito que a tecnologia é uma ferramenta poderosa para solucionar problemas e melhorar o mundo.
 
