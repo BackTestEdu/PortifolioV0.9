@@ -1,11 +1,14 @@
-# Portfólio de Eduardo Gabriel de Moraes
+# Portfólio de Eduardo Gabriel de Moraes Vieira
+
+> Status do projeto: Em desenvolvimento
 
 Este é o repositório do meu site de portfólio, onde compartilho meus projetos e habilidades relacionados à área de TI.
 
 ## Sobre
 
 Olá! Sou apaixonado por tecnologia desde jovem e transformei essa paixão em uma jornada incrível. Minha história na área de TI começou no Ensino Médio Técnico, onde comecei a explorar um mundo de possibilidades. Ao longo dos anos, mergulhei em diversas tecnologias e desafios, construindo uma base sólida e adaptável.
-Minha Trajetória
+
+## Minha Trajetória
 
 Desde a adolescência, venho explorando diferentes facetas da tecnologia. Minha jornada inclui:
 
@@ -15,7 +18,7 @@ Desde a adolescência, venho explorando diferentes facetas da tecnologia. Minha 
    
 **Experiência Corporativa:**
 
-   Trabalhei na ILTDA aos 16 anos, onde aprimorei minhas habilidades com sistemas de gerenciamento de conteúdo, como Joomla e WordPress. Transformei sites "orientados a tabela" comuns naquela epoca em    '       experiências modernas e elegantes.
+   Trabalhei na ILTDA aos 16 anos, onde aprimorei minhas habilidades com sistemas de gerenciamento de conteúdo, como Joomla e WordPress. Transformei sites "orientados a tabela" comuns naquela epoca em experiências modernas e elegantes.
    
 **Resolução de Desafios Técnicos:**
 
