@@ -1,17 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #ecf0f1; 
+    color: #2c3e50; 
+    font-family: 'Arial', sans-serif; /* Falta escolher fomte */
 }
 
 header {
     text-align: center;
+    background-color: #2ecc71; 
+    color: #ffffff; 
     padding: 20px;
-    background-color: #f1f1f1;
 }
 
 nav {
     text-align: center;
     margin-bottom: 20px;
+    background-color: #2ecc71; 
+    color: #ffffff;
+    padding: 10px;
 }
 
 nav a {
@@ -22,7 +29,17 @@ nav a {
 }
 
 section {
-    margin-bottom: 20px;
+    background-color: #ffffff; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer {
+    background-color: #2ecc71; 
+    color: #ffffff;
+    padding: 10px;
 }
 
 h2 {
@@ -41,3 +58,4 @@ li {
 .stats {
     text-align: center;
 }
+
