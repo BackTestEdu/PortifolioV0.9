@@ -2,13 +2,6 @@ body {
     font-size: 16px;
 }
 
-/*  */
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
-
 /* MOBILE */
 @media only screen and (max-width: 480px) {
     body {
@@ -59,5 +52,53 @@ section {
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
     section {
         margin: 15px 0;
+    }
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .skills li {
+        margin-bottom: 5px;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    .skills li {
+        margin-bottom: 5px;
+    }
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li {
+    margin-bottom: 20px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+    .experience li {
+        margin-bottom: 10px;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    .experience li {
+        margin-bottom: 10px;
     }
 }
