@@ -1,0 +1,63 @@
+body {
+    font-size: 16px;
+}
+
+/*  */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+/* TABLET */
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/* Imagem responsiva */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+/* Ajuste nas sections*/
+section {
+    margin: 20px 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    section {
+        margin: 10px 0;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    section {
+        margin: 15px 0;
+    }
+}
