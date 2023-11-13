@@ -11,28 +11,28 @@
  * Uso: 
 */
 document.addEventListener('DOMContentLoaded', function () {
-    var intervalo = 3000; // Intervalo em milissegundos (por exemplo, 3 segundos)
+    var intervalo = 10000; // Intervalo em milissegundos (por exemplo, 10 segundos)
 
     var paragrafoOriginal = document.getElementById('formation');
-    var secao = document.getElementById('info');
+    
 
     function reescreverTexto() {
         // Obtém o conteúdo original
         var textoOriginal = paragrafoOriginal.textContent;
 
-        // Limpa a seção
-        secao.innerHTML = ;
+        // Limpa a seção  secao.innerHTML = secao;
+        paragrafoOriginal.innerHTML = "";
 
         // Cria um novo parágrafo
         var novoParagrafo = document.createElement('p');
-        secao.appendChild(novoParagrafo);
+        paragrafoOriginal.appendChild(novoParagrafo);
 
         // Inicia a reescrita
         for (var i = 0; i < textoOriginal.length; i++) {
             (function (i) {
                 setTimeout(function () {
                     novoParagrafo.textContent += textoOriginal.charAt(i);
-                }, i * 50); // Intervalo de 50 milissegundos entre caracteres
+                }, i * 100); // Intervalo de 100 milissegundos entre caracteres
             })(i);
         }
     }
