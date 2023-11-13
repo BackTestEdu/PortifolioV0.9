@@ -43,11 +43,12 @@ nav a {
 
 .info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     box-shadow: none;
     background-color: transparent;
     font-size: xx-large;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .info p {
@@ -59,6 +60,7 @@ nav a {
 
 .info > :nth-child(2) {
     margin-top: 5vh;
+    
 }
 
 .info > :nth-child(1) {
@@ -88,6 +90,7 @@ footer {
 
 .title-hero {
     font-size: 4.5rem;
+    min-width: 100%;
 }
 
 h2 {
