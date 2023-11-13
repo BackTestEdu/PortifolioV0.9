@@ -3,7 +3,7 @@ body {
     margin: 10px 20px;
     background-color: #062206; 
     color: #2c3e50; 
-    font-family: 'Arial', sans-serif; /* Falta escolher fonte */
+    font-family: 'Roboto', sans-serif; /* Falta escolher fonte */
 }
 
 header {
@@ -16,10 +16,11 @@ header {
 
 nav {
     display: flex;
-    text-align: center;
     margin-bottom: 20px;
     background-color: #2ecc71; 
     color: #ffffff;
+    border-radius: 5px;
+    align-items: center;
 }
 
 nav a {
@@ -27,8 +28,13 @@ nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    padding-top:.5rem;
 }
 
+.navigation-links{
+    box-shadow: none;
+    background-color: transparent;
+}
 
 .info{
     display: flex;
@@ -36,6 +42,8 @@ nav a {
     box-shadow: none;
     background-color: transparent;
 }
+
+/* Ajustando o layout para depois reajustar dinamicamente */
 
 .info > :nth-child(3){
     margin-top: 0vh;   
@@ -49,9 +57,12 @@ nav a {
 .info > :nth-child(1), .info > :nth-child(2){
     font-size: xx-large;
 }
+
 .logo{
  background-color: transparent;
  box-shadow: none;
+ font-size: xx-large;
+ font-family: 'Roboto';
 }
 section {
     background-color: #ffffff; 
