@@ -69,6 +69,8 @@ footer {
 
 h2 {
     color: #333;
+    font-size: large;
+    padding-bottom: 10px;
 }
 
 ul {
