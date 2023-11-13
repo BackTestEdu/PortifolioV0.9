@@ -14,28 +14,34 @@ document.addEventListener('DOMContentLoaded', function () {
     var intervalo = 10000; // Intervalo em milissegundos (por exemplo, 10 segundos)
 
     var paragrafoOriginal = document.getElementById('formation');
-    
+
 
     function reescreverTexto() {
+        
         // Obtém o conteúdo original
         var textoOriginal = paragrafoOriginal.textContent;
-        
         // Limpa a seção  secao.innerHTML = secao;
         paragrafoOriginal.innerHTML = "";
 
         // Cria um novo parágrafo
         var novoParagrafo = document.createElement('p');
         paragrafoOriginal.appendChild(novoParagrafo);
-        blinkCursor();
+        
+        resetCursor();
+        
         // Inicia a reescrita
         for (var i = 0; i < textoOriginal.length; i++) {
             (function (i) {
                 setTimeout(function () {
                     novoParagrafo.textContent += textoOriginal.charAt(i);
+                    if (i === textoOriginal.length - 1) {
+                        blinkCursor();
+                    }
                 }, i * 100); // Intervalo de 100 milissegundos entre caracteres
             })(i);
+          
         }
-        
+
     }
 
     // Chama a função inicialmente
@@ -43,13 +49,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Chama a função a cada intervalo
     setInterval(reescreverTexto, intervalo);
+
 });
+
+function resetCursor() {
+    var cursor = document.getElementsByClassName('cursor')[0];
+    cursor.style.opacity = 1;
+}
+
 
 function blinkCursor() {
     var cursor = document.getElementsByClassName('cursor')[0];
-    setInterval(function() {
-      cursor.style.opacity = (cursor.style.opacity === '0') ? '1' : '0';
-    }, 700);
-  }
+    setInterval(function () {
+        cursor.style.opacity = (cursor.style.opacity === '0') ? '1' : '0';
+    }, 500);
+
+}
 
 

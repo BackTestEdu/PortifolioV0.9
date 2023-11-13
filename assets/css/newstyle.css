@@ -120,6 +120,8 @@ li {
 .title-hero {
     font-size: 4.5rem;
     min-width: 100%;
+    color: white;
+    padding-top: 50vh;
 }
 
 /* Stats Section Styles */

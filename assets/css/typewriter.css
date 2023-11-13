@@ -3,15 +3,16 @@
     width: .3rem;
     height: 2.5rem;
     background-color: #0e4d0e;
-    animation: blink 0.7s infinite;
+    /* animation: blink 0.7s infinite; */
     margin-top: 5vh;
     margin-left: 0.3rem;
   }
 
-  @keyframes blink {
+  /* @keyframes blink {
     50% {
       opacity: 0;
     }
-  }
+
+  } */
 
   
