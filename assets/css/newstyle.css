@@ -1,6 +1,6 @@
+/* Reset de Estilos e Estilos Globais */
 body {
-    /* margin: 10px 20px; */
-    
+    margin: 0;
     background-color: #062206;
     color: #2c3e50;
     font-family: 'Segoe UI';
@@ -11,16 +11,17 @@ body {
     background-color: rgb(3, 19, 3);
 }
 
+/* Header Styles */
 header {
     text-align: center;
     color: #ffffff;
     height: 1vh;
 }
 
+/* Navigation Styles */
 nav {
     display: flex;
     margin-bottom: 20px;
-    /* background-color: #2ecc71;  */
     color: #ffffff;
     border-radius: 5px;
     align-items: center;
@@ -34,7 +35,7 @@ nav a {
     padding-top: .5rem;
 }
 
-
+/* Section Styles */
 section {
     background-color: #ffffff;
     padding: 20px;
@@ -42,17 +43,19 @@ section {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    /* Sombra suave */
 }
+
 #info {
    height: 100vh;
 }
 
+/* Footer Styles */
 footer {
     background-color: #2ecc71;
     color: #ffffff;
     padding: 10px;
 }
 
-
+/* Heading and Paragraph Styles */
 h2 {
     color: #333;
     font-size: x-large;
@@ -64,8 +67,7 @@ p {
     font-size: medium;
 }
 
-
-
+/* List Styles */
 ul {
     list-style-type: none;
     padding: 0;
@@ -75,11 +77,13 @@ li {
     margin-bottom: 10px;
 }
 
+/* Navigation Links Styles */
 .navigation-links {
     box-shadow: none;
     background-color: transparent;
 }
 
+/* Info Section Styles */
 .info {
     display: flex;
     flex-direction: row;
@@ -94,18 +98,17 @@ li {
     font-size: 2.5rem;
     color: #156f15;
     width: fit-content;
-
 }
 
-.info> :nth-child(2) {
+.info > :nth-child(2) {
     margin-top: 5vh;
-
 }
 
-.info> :nth-child(1) {
+.info > :nth-child(1) {
     margin-top: 2vh;
 }
 
+/* Logo Styles */
 .logo {
     background-color: transparent;
     box-shadow: none;
@@ -113,20 +116,24 @@ li {
     font-family: 'Roboto';
 }
 
+/* Hero Title Styles */
 .title-hero {
     font-size: 4.5rem;
     min-width: 100%;
 }
 
+/* Stats Section Styles */
 .stats {
     text-align: center;
 }
 
+/* Social Styles */
 .social {
     background-color: transparent;
     box-shadow: none;
 }
 
+/* Services Section Styles */
 .services {
     display: flex;
     flex-direction: row;
@@ -137,7 +144,6 @@ li {
 .services .services-item {
     min-height: 15%;
     max-width: 15%;
-
 }
 
 .services .services-item h3 {
