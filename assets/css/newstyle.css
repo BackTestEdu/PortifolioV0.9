@@ -1,9 +1,10 @@
 body {
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
+    
     background-color: #062206;
     color: #2c3e50;
     font-family: 'Segoe UI';
-    background-image: url(/Portifolio/PortifolioV0.9/assets/img/bg-2-home.jpeg);
+    background-image: url(/Portifolio/PortifolioV0.9/assets/img/bg-2-home-2x.jpeg);
     background-size: 100vw 100vh;
     background-repeat: repeat;
     background-blend-mode: overlay;
@@ -11,12 +12,9 @@ body {
 }
 
 header {
-
     text-align: center;
     color: #ffffff;
-    padding: 10px 20px;
-    height: 100vh;
-
+    height: 1vh;
 }
 
 nav {
@@ -36,50 +34,16 @@ nav a {
     padding-top: .5rem;
 }
 
-.navigation-links {
-    box-shadow: none;
-    background-color: transparent;
-}
-
-.info {
-    display: flex;
-    flex-direction: row;
-    box-shadow: none;
-    background-color: transparent;
-    font-size: xx-large;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.info p {
-    font-size: 2.5rem;
-    color: #156f15;
-    width: fit-content;
-    
-}
-
-.info > :nth-child(2) {
-    margin-top: 5vh;
-    
-}
-
-.info > :nth-child(1) {
-    margin-top: 30vh;
-}
-
-.logo {
-    background-color: transparent;
-    box-shadow: none;
-    font-size: xx-large;
-    font-family: 'Roboto';
-}
 
 section {
     background-color: #ffffff;
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    /* Sombra suave */
+}
+#info {
+   height: 100vh;
 }
 
 footer {
@@ -88,10 +52,6 @@ footer {
     padding: 10px;
 }
 
-.title-hero {
-    font-size: 4.5rem;
-    min-width: 100%;
-}
 
 h2 {
     color: #333;
@@ -113,6 +73,49 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+.navigation-links {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    box-shadow: none;
+    background-color: transparent;
+    font-size: xx-large;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info p {
+    font-size: 2.5rem;
+    color: #156f15;
+    width: fit-content;
+
+}
+
+.info> :nth-child(2) {
+    margin-top: 5vh;
+
+}
+
+.info> :nth-child(1) {
+    margin-top: 2vh;
+}
+
+.logo {
+    background-color: transparent;
+    box-shadow: none;
+    font-size: xx-large;
+    font-family: 'Roboto';
+}
+
+.title-hero {
+    font-size: 4.5rem;
+    min-width: 100%;
 }
 
 .stats {

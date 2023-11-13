@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function blinkCursor() {
-    var cursor = document.getElementById('cursor');
+    var cursor = document.getElementsByClassName('cursor')[0];
     setInterval(function() {
       cursor.style.opacity = (cursor.style.opacity === '0') ? '1' : '0';
     }, 700);
