@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     function reescreverTexto() {
-        
+
         // Obtém o conteúdo original
         var textoOriginal = paragrafoOriginal.textContent;
         // Limpa a seção  secao.innerHTML = secao;
@@ -26,25 +26,29 @@ document.addEventListener('DOMContentLoaded', function () {
         // Cria um novo parágrafo
         var novoParagrafo = document.createElement('p');
         paragrafoOriginal.appendChild(novoParagrafo);
-        
-        resetCursor();
-        
+
         // Inicia a reescrita
         for (var i = 0; i < textoOriginal.length; i++) {
             (function (i) {
                 setTimeout(function () {
+
                     novoParagrafo.textContent += textoOriginal.charAt(i);
+
                     if (i === textoOriginal.length - 1) {
-                        blinkCursor();
+                       
+                       var intervaloBlink = setInterval(blinkCursor,500);
+                       setTimeout(function() {
+                        clearInterval(intervaloBlink);
+                    }, 5000); 
                     }
+                    
+
                 }, i * 100); // Intervalo de 100 milissegundos entre caracteres
             })(i);
-          
+
         }
 
     }
-
-    // Chama a função inicialmente
     reescreverTexto();
 
     // Chama a função a cada intervalo
@@ -52,18 +56,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-function resetCursor() {
-    var cursor = document.getElementsByClassName('cursor')[0];
-    cursor.style.opacity = 1;
-}
+// function resetCursor() {
+//     var cursor = document.getElementsByClassName('cursor')[0];
+//     cursor.style.opacity = 1;
+
+// }
 
 
 function blinkCursor() {
     var cursor = document.getElementsByClassName('cursor')[0];
-    setInterval(function () {
-        cursor.style.opacity = (cursor.style.opacity === '0') ? '1' : '0';
-    }, 500);
-
+    cursor.style.opacity = (cursor.style.opacity === '0') ? '1' : '0';
+    console.log("Opacidade:", cursor.style.opacity);
 }
-
 
