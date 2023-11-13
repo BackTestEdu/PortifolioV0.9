@@ -4,9 +4,15 @@ body {
     background-color: #062206; 
     color: #2c3e50; 
     font-family: 'Roboto', sans-serif; /* Falta escolher fonte */
+    background-image: url(/Portifolio/PortifolioV0.9/assets/img/bg-1-home.jpeg);
+    background-size: 100vw 100vh; 
+    background-repeat: repeat; 
+    background-blend-mode: overlay;
+    background-color:rgb(3, 19, 3);
 }
 
 header {
+ 
     text-align: center;
     color: #ffffff; 
     padding: 10px 20px;
@@ -17,7 +23,8 @@ header {
 nav {
     display: flex;
     margin-bottom: 20px;
-    background-color: #2ecc71; 
+    /* background-color: #2ecc71;  */
+    
     color: #ffffff;
     border-radius: 5px;
     align-items: center;
@@ -26,7 +33,7 @@ nav {
 nav a {
     margin: 2.5rem;
     text-decoration: none;
-    color: #333;
+    color: #2ecc71;
     font-weight: bold;
     padding-top:.5rem;
 }
