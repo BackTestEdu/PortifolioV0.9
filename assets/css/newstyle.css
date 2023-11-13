@@ -108,3 +108,12 @@ li {
     background-color: transparent;
     box-shadow: none;
 }
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services .services-item{
+    min-width: 15%;
+}
