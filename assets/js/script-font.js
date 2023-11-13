@@ -1,7 +1,19 @@
+/**
+ * Typewriter - Um script para exibir texto de forma lenta, como uma máquina de escrever.
+ *
+ * Autor: Eduardo Gabriel
+ * Data de Atualização: 13/11/23 8:40
+ *
+ * Descrição:
+ * Este script fornece uma função para simular o efeito de uma máquina de escrever,
+ * exibindo um texto de forma lenta, caractere por caractere.
+ *
+ * Uso: 
+*/
 document.addEventListener('DOMContentLoaded', function () {
     var intervalo = 3000; // Intervalo em milissegundos (por exemplo, 3 segundos)
 
-    var paragrafoOriginal = document.getElementById('name');
+    var paragrafoOriginal = document.getElementById('formation');
     var secao = document.getElementById('info');
 
     function reescreverTexto() {
@@ -9,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var textoOriginal = paragrafoOriginal.textContent;
 
         // Limpa a seção
-        secao.innerHTML = '';
+        secao.innerHTML = ;
 
         // Cria um novo parágrafo
         var novoParagrafo = document.createElement('p');
@@ -32,4 +44,3 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(reescreverTexto, intervalo);
 });
 
-//Este exemplo usa o método setInterval para chamar a função reescreverTexto a cada intervalo definido, criando assim o efeito de reescrita periódica. Você pode ajustar o conteúdo inicial, o intervalo de reescrita e outros parâmetros conforme necessário para atender às suas necessidades.
